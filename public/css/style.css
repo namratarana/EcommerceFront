@@ -1,0 +1,289 @@
+
+#header {
+    display: block;
+}
+
+#header a {
+    text-decoration: none;
+    display: block;
+    color: #666;
+}
+
+#header a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: #666;
+
+}
+
+#header a:active,
+#header a:focused {
+    text-decoration: none;
+}
+
+#bold {
+    font-size: 16px;
+    -webkit-transition: font-size 1s;
+    /* For Safari 3.1 to 6.0 */
+    transition: font-size 1s;
+}
+
+#bold:hover {
+    font-size: 20px;
+}
+
+#bold b {
+    font-weight: bold;
+}
+
+#unbold {
+    font-size: 16px;
+    -webkit-transition: font-size 1s;
+    /* For Safari 3.1 to 6.0 */
+    transition: font-size 1s;
+}
+
+#unbold:hover {
+    font-size: 14px;
+}
+
+a {
+    color: #0383c0;
+}
+
+.navbar {
+    margin: 30px 0 20px;
+    background: url(../img/navbar.png) repeat-x #bfbfbf;
+    border: 1px solid #ccc;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default a:hover {
+    background: 0 0;
+    color: #0383c0 !important;
+    font-weight: 700;
+}
+
+.logo {
+    width: 100%;
+    margin: 40px 0 0;
+    font-family: Oswald, sans-serif;
+}
+
+.primary {
+    color: #0383c0;
+}
+
+.subtext {
+    color: #666;
+    font-size: 1em;
+    font-weight: 700;
+    margin: 6px 0 0 45px;
+}
+
+header form {
+    float: right;
+    margin-top: 30px;
+    background: #0383c0;
+    padding: 15px;
+    color: #fff;
+    border-radius: 5px ;
+}
+
+#products img {
+    width: 130px;
+    height: 130px;
+}
+
+.jumbotron {
+    overflow: auto;
+    padding: 0 !important;
+} 
+
+.jumbotron p {
+    font-size: 0.9em;
+}
+
+.tablist {
+    display: block!important;
+    float: left;
+    padding: 0; 
+    margin: 0;
+    width: 30%;
+}
+
+.tablist li {
+    display: block!important;
+    background: #ccc;
+    list-style: none;
+    color: #666;
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: 15px;
+}
+
+.tablist li.active,
+.tablist li.active a { 
+    display: block!important;
+    background: #0383c0;
+    color: #fff;
+}
+
+
+.tablist li a {
+    padding: 15px 10px 15px 20px;
+    color: #666;
+    display: block!important;
+    text-decoration: none;
+}
+
+.tab-content {
+    float: right;
+    width: 70%;
+    background: #0383c0;
+    color: #fff;
+    overflow: hidden;
+    height: 275px;
+    padding-top: 20px;
+}
+
+.slide-img {
+    float: right;
+    width: 50%;
+}
+
+.tab-text {
+    float: left;
+    width: 40%;
+    margin-left: 40px;
+}
+
+/*.main-img {
+    width: 100%;
+}*/
+
+.access {
+    margin: 10px auto 0px;
+    text-align: center;
+    padding: 0;
+}
+
+.access div {
+    margin-bottom: 10px;
+}
+
+.font ul {
+    list-style-type: none;
+    white-space: nowrap;
+}
+
+.font ul li {
+    display: inline-block;
+    width: 150px;
+    padding: 5px 10px 0px;
+    font-size: 15px;
+    position: relative;
+}
+
+.font ul li button {
+    text-decoration: none;
+}
+
+#products + a {
+    display: block!important;
+}
+
+#products .caption h4 a {
+    display: inline-block!important;
+}
+
+.boldness button {
+    text-decoration: none!important;
+}
+
+footer {
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 50px;
+    height: 4em;
+    background: #f4f4f4;
+}
+
+#product {
+    background:none!important;
+     border:none; 
+     padding:0!important;
+    /*optional*/
+    font-family:arial,sans-serif; /*input has OS specific font-family*/
+     color:#069;
+     text-decoration:underline;
+}
+
+#image{
+     background:none!important;
+     border:none; 
+     margin:0!important;
+    /*optional*/
+    font-family:arial,sans-serif; /*input has OS specific font-family*/
+     color:#069;
+     text-decoration:none;
+    text-align: justify;
+}
+
+.productImage{
+    padding-left:100px !important;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 400px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  position: absolute;
+  float: right;
+  top: 10px;
+  right: auto;
+  
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 400px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  min-width: 10%;
+  height: 400px;
+}
+
+
+
+@media (max-width: 995px) {
+    header form {width: 100% !important;}
+}
+
+@media (max-width: 768px) {
+    .slide-img {display: none;}
+    .tab-text {
+        float: none;
+        width: 80%;
+    }
+    .navbar a {color: #fff !important;}
+    #navbar li.active a,.navbar a:hover,.navbar a:focus {color: #0383c0 !important;}
+    .navbar form {display: none;}
+}
+
+@media (max-width: 600px) {
+    .tab-content{height: 350px;}
+}

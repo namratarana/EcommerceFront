@@ -1,0 +1,41 @@
+#products .thumbnail {
+    background: #063447;
+}
+
+#header a {
+    color: #fff;
+}
+
+#header a:hover {
+    color: #fff;
+}
+
+.container .section .row .btn-link, #products .caption, .ratings p, section .details {
+    color: #fff;
+}
+
+.panel-body {
+    color: #000;
+}
+
+.subtext {
+    color: #ccc;
+}
+
+footer {
+    background: #023046;
+    color: #fff;
+}
+
+.content, .content1 {
+    color: #fff;
+}
+
+section {
+    color: #fff;
+} 
+
+.table{
+    color:#fff;
+}
+
