@@ -48,6 +48,7 @@ class ProductDetails extends Component
                       <div className="row">
                           <div className="col-md-4">
                             <p id="image" />
+                            {console.log("Hi")}
                             <img src={`/${this.state.Image}`} alt="Galaxy S5" class="img-responsive"></img>
                           </div>
                           <div className="col-md-8 ">

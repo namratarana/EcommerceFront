@@ -7,7 +7,10 @@ class EcommService
     {
         return axios.get(`${url}/product`);
     }
-
+    getSpProduct()
+    {
+        return axios.get(`${url}/sp`);
+    }
     getProductDetails(id)
     {
         return axios.get(`${url}/product/${id}`);
